@@ -200,7 +200,7 @@ const Home: NextPage = () => {
               url = &quot;
               {selectRef.current?.value === "devnet"
                 ? `https://api.${selectRef.current?.value}.solana.com`
-                : `https://ssc-dao.genesysgo.net`}
+                : `https://mainnet-beta.solflare.network/`}
               &quot;
               <br />
               [test]
