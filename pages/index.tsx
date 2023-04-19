@@ -41,7 +41,7 @@ const Home: NextPage = () => {
       const connection = new Connection(
         selectValue === "devnet"
           ? clusterApiUrl("devnet")
-          : "https://green-restless-river.solana-mainnet.quiknode.pro/d0edf84e7c18f7ec6c5372c22bac6e765822927f/"
+          : "https://mainnet-beta.solflare.network/"
       )
 
       setFeedbackStatus("Fetching...")
