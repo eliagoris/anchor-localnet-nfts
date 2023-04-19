@@ -39,7 +39,6 @@ const theme: Theme = {
   },
   config: {
     useLocalStorage: true,
-    initialColorModeName: "light",
   },
 
   fonts: {
